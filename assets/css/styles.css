@@ -1,3 +1,129 @@
 * {
   box-sizing: border-box;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Popin";
+}
+
+/* Common */
+a {
+  text-decoration: none;
+}
+
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin: 0 auto;
+}
+
+.btn {
+  min-width: 108px;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+  color: #1ebfc1;
+  font-weight: 600;
+  line-height: 48px;
+  font-size: 1.6rem;
+  text-align: center;
+}
+/* === Header === */
+.header-fixed {
+  margin-top: 28px;
+}
+.body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.body .list-item {
+  display: flex;
+}
+.body .list-item li {
+  padding: 0 10px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 24px;
+  color: #2f3a3b;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta span {
+  margin-right: 24px;
+}
+
+/* Hero */
+.hero {
+  margin-top: 50px;
+}
+
+.hero__main-content {
+  display: flex;
+}
+/* Hero-left */
+
+.hero-left {
+  width: 46%;
+}
+
+.hero-left__easy {
+  margin-top: 93px;
+}
+
+.hero-left__easy span {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 21px;
+  color: #767e7e;
+}
+
+.hero-left__title {
+  width: 458px;
+  margin-top: 18px;
+  font-size: 6.2rem;
+  font-weight: 700;
+  color: #0d1111;
+}
+
+.hero-left__desc {
+  width: 374px;
+  margin-top: 46px;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 32px;
+  color: #9da6a5;
+}
+
+.hero-left__cta {
+  position: absolute;
+  margin-top: 52px;
+}
+
+.hero-left__btn {
+  margin-right: 50px;
+}
+
+/* hero-right */
+.hero-right {
+  position: relative;
+  width: 54%;
+}
+
+.hero-right__img {
+  position: absolute;
+  right: 0;
+  width: 576px;
+  height: 631px;
+  object-fit: cover;
+}
