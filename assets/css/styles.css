@@ -20,7 +20,7 @@ a {
 .main-content {
   width: 1170px;
   max-width: calc(100% - 48px);
-  margin: 0 135px;
+  margin-left: 145px;
 }
 
 .btn {
@@ -233,7 +233,6 @@ a {
   position: relative;
   height: 182px;
   background: #fff;
-  border-top: 2px solid red;
 }
 
 .popular__desc {
@@ -262,9 +261,12 @@ a {
 .popular__list-item .item {
   width: 359px;
   height: 517px;
+  display: flex;
+  position: relative;
 }
 
 .popular__img {
+  position: absolute;
   width: 359px;
   height: 393px;
   object-fit: cover;
@@ -272,5 +274,95 @@ a {
 
 .item__info {
   width: 325px;
-  background: orange;
+  height: 195px;
+  background: #fff;
+  box-shadow: 0px 16px 90px 0px #0000000d;
+  border-radius: 8px;
+  margin: 0 auto 0;
+}
+
+.info1,
+.info2,
+.info3 {
+  position: absolute;
+  bottom: 0;
+  left: 17px;
+}
+
+.item__wage {
+  padding: 18px 25px 29px;
+}
+
+.item__sub-title {
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: #0d1111;
+}
+
+.item__info--dolar {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #909090;
+}
+
+.item__info--dolar span {
+  color: #0d1111;
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+
+.item__desc {
+  margin-top: 6px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #9da6a5;
+  line-height: 21px;
+}
+
+.item__date {
+  display: flex;
+  margin-top: 18px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #9da6a5;
+  align-items: center;
+}
+
+.item__date-left {
+  margin-right: 13px;
+}
+
+.item__circle {
+  margin-right: 8px;
+  display: block;
+  width: 6px;
+  height: 6px;
+  background: #1ebfc1;
+  border-radius: 50%;
+}
+
+/* report */
+.report {
+  width: 862px;
+  height: 131px;
+  margin: 265px 289px 0;
+}
+
+.report__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.report__info {
+  font-weight: 700;
+  font-size: 6.2rem;
+  color: #0d1111;
+}
+
+.report__desc {
+  margin-top: 11px;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #767e7e;
 }
