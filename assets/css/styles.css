@@ -145,35 +145,157 @@ a {
 }
 
 .hero-right__img {
-  position: relative;
   position: absolute;
   right: 0;
   width: 576px;
   height: 631px;
   object-fit: cover;
   background: #e0f7f6;
+  position: relative;
+}
+
+.Schedules {
+  position: absolute;
+  bottom: 46px;
+  left: -65px;
+  width: 124px;
+  height: 132px;
+  border-radius: 24px;
+  background: #fff;
+  z-index: 1;
+}
+
+.Schedules-title {
+  margin: 16px 35px 0;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 15px;
+}
+
+.rectangle-pink {
+  width: 39px;
+  height: 6px;
+  border-radius: 3px;
+  background: #fb9899;
+}
+
+.pink__second {
+  width: 51px;
+}
+
+.pink__thirty {
+  width: 33px;
+}
+
+.schedules__rectangle {
+  width: 74px;
+  height: 6px;
+  border-radius: 3px;
+  background: #edf1f5;
+}
+
+.Schedules__list-items {
+  margin: 16px 25px 23px;
+}
+
+.Schedules__item:nth-child(2) {
+  margin-top: 12px;
+}
+
+.Schedules__item:nth-child(3) {
+  margin-top: 10px;
+}
+
+.Schedules__item.item__last {
+  margin-top: 16px;
+}
+
+.Schedules__item.item__last .schedules__rectangle {
+  margin-left: 25px;
+  width: 26px;
+  height: 6px;
+  background: #edf1f5;
 }
 
 .add-right {
   position: absolute;
   top: 149px;
-  background: orange;
+  left: -49px;
+  background: #fff;
   width: 157px;
   height: 75px;
   border-radius: 18px;
   z-index: 1;
-}
-
-.add-right__info {
-  width: 107px;
-  height: 40px;
+  display: flex;
+  padding: 17px 25px;
 }
 
 .add-right__box {
+  position: relative;
+  display: block;
+  margin-right: 16px;
   width: 36px;
   height: 40px;
   background: #ff8282;
   border-radius: 5px;
+  z-index: 2;
+}
+
+.add-right__box::before {
+  position: absolute;
+  bottom: 8px;
+  right: 4px;
+  left: 4px;
+  content: "";
+  width: 28px;
+  height: 4px;
+  background: #ffffff;
+}
+
+.hero-right__desc {
+  width: 55px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 15px;
+  color: #0d1111;
+}
+
+.image {
+  position: absolute;
+  bottom: 41px;
+  right: 100px;
+  background: #fff;
+  width: 207px;
+  height: 90px;
+  border-radius: 24px;
+  z-index: 1;
+}
+
+.image__sub-tile {
+  position: absolute;
+  top: 17px;
+  left: 35px;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 15px;
+  color: #0d1111;
+}
+
+.list-img {
+  display: flex;
+  position: absolute;
+  bottom: 17px;
+  right: 35px;
+}
+
+.image__avater {
+  width: 33px;
+  height: 33px;
+}
+
+.item-img {
+  margin-left: -7px;
 }
 
 /* features */
